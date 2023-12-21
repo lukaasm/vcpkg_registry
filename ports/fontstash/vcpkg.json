@@ -1,0 +1,9 @@
+{
+  "name": "fontstash",
+  "version-string": "2019.04.22",
+  "description": "The Better String Library is an abstraction of a string data type which is superior to the C library char buffer string type, or C++'s std::string",
+  "homepage": "https://github.com/memononen/fontstash",
+  "dependencies": [
+    "stb"
+  ]
+}
