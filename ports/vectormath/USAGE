@@ -1,0 +1,4 @@
+vectormath is header-only and can be used from CMake via:
+
+	find_path(VECTORMATH_INCLUDE_DIRS "vectormath/vectormath.hpp")
+    	target_include_directories(main PRIVATE ${VECTORMATH_INCLUDE_DIRS})

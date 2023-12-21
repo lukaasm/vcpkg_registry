@@ -1,0 +1,6 @@
+{
+  "name": "vectormath",
+  "version-string": "2017.01.02",
+  "description": "Modified version of Sony's open sourced header-only vector and matrix math library",
+  "homepage": "https://github.com/glampert/vectormath"
+}
