@@ -1,0 +1,16 @@
+{
+  "name": "framegraph",
+  "version": "2023.11.25",
+  "description": "This is a renderer agnostic implementation of FrameGraph, inspired by the GDC presentation: FrameGraph: Extensible Rendering Architecture in Frostbite by Yuriy O'Donnell",
+  "homepage": "https://github.com/skaarj1989/FrameGraph",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}

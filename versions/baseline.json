@@ -4,6 +4,10 @@
       "baseline": "2019.04.22",
       "port-version": 0
     },
+    "framegraph": {
+      "baseline": "2023.11.25",
+      "port-version": 0
+    },
     "vectormath": {
       "baseline": "2017.01.02",
       "port-version": 0

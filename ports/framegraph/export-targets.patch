@@ -1,0 +1,14 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index ef9358d..44b5234 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -69,3 +69,9 @@ install(
+   DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/fg
+   DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+ )
++
++install(TARGETS FrameGraph EXPORT FrameGraphTargets)
++install(EXPORT FrameGraphTargets
++    NAMESPACE fg::
++    DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/framegraph
++)
