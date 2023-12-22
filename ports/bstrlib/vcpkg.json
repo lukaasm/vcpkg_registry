@@ -1,0 +1,16 @@
+{
+  "name": "bstrlib",
+  "version": "1.0.0",
+  "description": "The Better String Library is an abstraction of a string data type which is superior to the C library char buffer string type, or C++'s std::string",
+  "homepage": "https://github.com/websnarf/bstrlib",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
