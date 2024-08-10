@@ -16,6 +16,10 @@
       "baseline": "0.637",
       "port-version": 0
     },
+    "sdl3": {
+      "baseline": "3.0.0",
+      "port-version": 0
+    },
     "vectormath": {
       "baseline": "2017.01.02",
       "port-version": 0
